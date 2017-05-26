@@ -1,0 +1,14 @@
+#message-list-container {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#message-list {
+  width: inherit;
+  display:flex;
+  flex-direction: column;
+  bottom: 0px;
+  overflow-y: scroll;
+}

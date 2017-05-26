@@ -1,0 +1,29 @@
+.avatar {
+  position: absolute;
+  left: 4px;
+  top: 6px;
+}
+
+.message-content {
+  word-break: break-all;
+  font-size: 0.8em;
+  padding-left: 54px;
+  padding-top: 16px;
+}
+
+.message-container {
+  position:relative;
+  width: 100%;
+}
+
+.message-author {
+  position:absolute;
+  left: 54px;
+  top: -4px;
+}
+
+.message-time {
+  margin-left: 4px;
+  font-size: 0.7em;
+  color: #828282;
+}

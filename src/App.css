@@ -1,0 +1,5 @@
+#message-ui {
+  width: 100%;
+  height: calc(100% - 26px);
+  margin: 0px 12px 0px 12px;
+}

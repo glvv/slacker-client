@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Maven+Pro');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+p, textarea {
+  font-family: 'Roboto', sans-serif;
+  color: #2b2b2b;
+  font-size: 0.9em;
+}
+
+#root {
+  height: inherit;
+  width: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+    background-color: #f7f2f2;
+  height: inherit;
+  width: inherit;
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+footer {
+  position:fixed;
+  bottom: 0;
+  width: inherit;
+}
+
+h4 {
+  font-size: 1em;
+  margin: 8px 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0;
+}
+
+
+#client-container {
+  display:flex;
+  height: inherit;
+  width:100%
+}
+
+#side-container {
+  background: #231f1f;
+  width: 250px;
+  height: inherit;
+}
+
+
+
+#team-list {
+  width: inherit;
+  height: 62px;
+}
+
+#team-name {
+  color: #d3d1d1;
+  margin-left: 10px;
+}
+
+#user-name {
+  color: #d3d1d1;
+  margin-left: 10px;
+}
+
+.channel-name {
+  color: #d3d1d1;
+  padding-left: 10px;
+  display:inline;
+}
+
+.channel-title {
+  position: relative;
+  top: 5px;
+}
+
+.side-title {
+  color: #d3d1d1;
+  padding-left: 10px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+#direct-channels-list {
+  width:inherit;
+}
+
+.channel-name-icon {
+  margin-right: 2px;
+}
+
+.channel-name-container {
+  height: 60px;
+  width:inherit;
+}
+
+.channel-name-container-group {
+  height: 30px;
+  width:inherit;
+}
+
+.channel-name-container:hover {
+  background: #1a4c4a;
+}
+
+.channel-name-container-group:hover {
+  background: #1a4c4a;
+}
+
+.create-new {
+  float:right;
+  margin-right: 30px;
+  position: relative;
+  top: 2px;
+}
+
+.invite-people-button {
+  position:relative;
+  margin-top: 20px;
+  left: 50px;
+
+  width: 150px;
+  height: 40px;
+
+
+	background-color:#63e4bd;
+  border: none;
+
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	border-radius:9px;
+
+	cursor:pointer;
+	text-decoration:none;
+
+  font-size: 0.8em;
+  font-family: 'Roboto', sans-serif;
+}
+.invite-people-button:hover {
+	background-color:#476e9e;
+}
+.invite-people-button:active {
+	position:relative;
+	top:1px;
+}
+
+.invite-people-link {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  color: #d3d1d1;
+  margin-left: 10px;
+  position:relative;
+  top: 8px;
+}
+
+.side-thumbnail {
+  width: 40px;
+  height: 40px;
+
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+
+  position: relative;
+  top: 10px;
+}
+
+.username-link {
+  position: relative;
+  bottom: 5px;
+  left: 4px;
+}
